@@ -1,0 +1,166 @@
+
+/*navegador*/
+
+#logo {
+    padding-left: 5px;
+    display: flex;
+    max-height: 100px;
+}
+
+
+#navegador {
+    background-color: #c8cc52;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0%;
+    box-shadow: 5px 5px 8px #048434;
+    z-index: 0;
+
+}
+#navegador2 {
+display: none;
+}
+
+
+#nav {
+    display: inline-flex;
+
+}
+
+#navegador ul {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    
+}
+
+#navegador .carro {
+    font-size: 35px;
+}
+
+#navegador .menu a {
+ 
+    text-decoration: none;
+  
+}
+
+/*navegador end*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+    background-color: #c8cc52;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer .anfibio {
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: #048434;
+}
+
+footer .prod {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #048434;
+}
+
+footer .infor {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #048434;
+}
+
+footer li{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+footer .iconos{
+    font-size: 26px;
+}
+
+footer .Sociales{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#tempaltemo_footer2{
+    display: none;
+}
+
+
+/*footer end*/
+
+@media (max-width: 750px) {
+
+/*no mover*/
+    #logo {
+        padding-left: 10px;
+        display: flex;
+        max-height: 80px;
+    }
+
+    #navegador{display: none;}
+    
+    #tempaltemo_footer{
+        display: none;
+    }
+
+  #tempaltemo_footer2{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+    #navegador2 {
+        display: flex;
+        justify-content: space-between;  
+        background-color: #c8cc52;
+        align-items: center;
+        padding: 10px 20px;
+        margin: 0%;
+        box-shadow: 5px 5px 8px #048434;
+        z-index: 0;
+      }
+
+    #navegador2 a {
+        font-size: 34px;
+    }
+
+    #navegador2 ul{
+        font-size: 28px;
+    }
+
+/*no mover*/
+
+
+
+  }

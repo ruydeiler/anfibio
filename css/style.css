@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Pacifico&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+#logo {
+    padding-left: 5px;
+    display: flex;
+    max-height: 100px;
+}
+
+
+#navegador {
+    background-color: #c8cc52;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0%;
+    box-shadow: 5px 5px 8px #048434;
+    z-index: 0;
+
+}
+#navegador2 {
+display: none;
+}
+
+
+#nav {
+    display: inline-flex;
+
+}
+
+#navegador ul {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    
+}
+
+#navegador .carro {
+    font-size: 35px;
+}
+
+#navegador .menu a {
+   
+    text-decoration: none;
+  
+}
+
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 40%;
+    margin: auto;
+}
+
+#envio {
+    color: blue;
+}
+
+.oferta{
+    text-align: center;
+    font-size: 50%;
+    color: #048434;
+    font-family: 'Bakbak One', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Zen Dots', sans-serif;
+
+}
+
+section {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: #e8e4e4;
+}
+
+/*tarjeta*/
+
+:root {
+    --primary: #DD946F;
+    --secondary: #261E5A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary);
+    font-family: Mulish;
+}
+
+.background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 80px 32px;
+    background-color: #eeeeee;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 24px;
+}
+
+.articles article {
+    max-width: 320px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    border-radius: 16px;
+
+}
+
+.articles article p h4 {
+    font-size: 16px;
+}
+
+.articles article a {
+    justify-content: center;
+    margin: 0 0 18px 0;
+    font-size: 1.6rem;
+
+}
+
+
+.articles article h2 {
+    text-align: center;
+    margin: 0 0 18px 0;
+    font-size: 1.6rem;
+    color: var(--secondary);
+    transition: color 0.3s ease-out;
+}
+
+
+.articles article img {
+    max-width: 100%;
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+}
+
+.article-preview {
+    padding: 20px;
+    background: white;
+}
+
+.articles figure {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+}
+
+.articles figure img {
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.articles article:hover img {
+    transform: scale(1.5);
+}
+
+/*footer*/
+
+footer{
+    background-color: #c8cc52;
+}
+
+footer .anfibio {
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: #048434;
+}
+
+footer .prod {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #048434;
+}
+
+footer .infor {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #048434;
+}
+
+footer li{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+footer .iconos{
+    font-size: 26px;
+}
+
+footer .Sociales{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#tempaltemo_footer2{
+    display: none;
+}
+
+@media (max-width: 750px) {
+
+    #logo {
+        padding-left: 10px;
+        display: flex;
+        max-height: 80px;
+    }
+
+    #navegador{display: none;}
+    
+    #tempaltemo_footer{
+        display: none;
+    }
+
+  #tempaltemo_footer2{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+    #navegador2 {
+        display: flex;
+        justify-content: space-between;  
+        background-color: #c8cc52;
+        align-items: center;
+        padding: 10px 20px;
+        margin: 0%;
+        box-shadow: 5px 5px 8px #048434;
+        z-index: 0;
+      }
+
+    #navegador2 a {
+        font-size: 34px;
+    }
+
+    #navegador2 ul{
+        font-size: 28px;
+    }
+
+  }
